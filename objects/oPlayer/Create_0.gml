@@ -1,3 +1,3 @@
 /// @description Insert description here
 // You can write your code in this editor
-baseSpeed = 4;
+MySpeed = 4;
