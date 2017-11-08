@@ -32,8 +32,9 @@ image_angle = point_direction(x,y, mouse_x, mouse_y);
 // Fire
 if mouse_check_button(mb_left)
 {
-	MyBullet = instance_create_depth(x + 10, y + 10, 3,oBullet);
+	MyBullet = instance_create_depth(x, y, 3,oBullet);
 	
 	MyBullet.direction = image_angle;
 	MyBullet.speed = 20;
+	MyBullet.image_angle = image_angle;
 }
